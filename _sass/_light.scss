@@ -3,11 +3,11 @@
  */
 
 :root {
-  --base-color: #000;
+  --base-color: #333333;
   --border: dashed 1px rgba(0, 0, 0, 1);
   --selection-background: rgba(0, 0, 0, 0.99);
   --selection-text: #FFF;
-  --background-color: #ff0000;
+  --background-color: #FFF;
   --text-color: var(--base-color);
   --placeholder-color: var(--base-color);
   --link-color: var(--base-color);
@@ -29,4 +29,9 @@
   --code-color-16: #1e90ff;
   --code-color-17: #800000;
   --code-color-18: #bbbbbb;
+}
+
+:responsive {
+  max-width: 100%;
+  height: auto;
 }
