@@ -5,12 +5,12 @@
 :root {
   --base-color: #333333;
   --border: dashed 1px rgba(0, 0, 0, 1);
-  --selection-background: rgba(0, 0, 0, 0.99);
+  --selection-background: rgba(52, 117, 111, 1);
   --selection-text: #FFF;
   --background-color: #FFF;
   --text-color: var(--base-color);
   --placeholder-color: var(--base-color);
-  --link-color: #265d62;
+  --link-color: var(--base-color);
   --code-color-1: #aaaaaa;
   --code-color-2: #ffffcc;
   --code-color-3: #F00000;
