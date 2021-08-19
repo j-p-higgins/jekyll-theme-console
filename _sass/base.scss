@@ -67,7 +67,7 @@ input, select, textarea, textarea::-webkit-input-placeholder { text-indent: 0px;
 ::placeholder { color: var(--placeholder-color);  opacity: 1; }
 :-ms-input-placeholder { color: var(--placeholder-color); }
 ::-ms-input-placeholder { color: var(--placeholder-color); }
-input[type=submit] { font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height;  cursor: pointer;  color: var(--link-color);  background-color: var(--background-color); }
+input[type=submit] { font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height;  cursor: pointer;  color: var(--link-color);  background-color: var(--background-color); border: none; }
 input[type=submit]:hover { color: var(--background-color); background-color: var(--base-color); }
 *:focus { outline: none; }
 textarea { vertical-align: top; }
